@@ -1,0 +1,16 @@
+
+table {
+	display: block;
+	width:100% !important;
+	
+}
+
+td.value {
+	word-wrap: break-word; 
+    word-break: break-all;
+}
+
+.container {
+	width: 40%;
+}
+

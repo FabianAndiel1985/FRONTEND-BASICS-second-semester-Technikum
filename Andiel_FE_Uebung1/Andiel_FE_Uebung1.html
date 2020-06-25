@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<style type="text/css">
+		html,body {
+			height:100vh;
+			margin:0;
+			font-size: 1.1rem;
+			}	
+
+		header{
+			height: 10%;
+			display: flex;
+			justify-content: center;
+			position: relative;
+		}
+
+		#lebenslauf-heading {
+			position: absolute;
+			bottom:0;
+			font-size: 3rem;
+		}
+
+		main {
+			height:100%;
+			padding: 40px 40px 40px 40px;
+			display:flex;
+			justify-content: center;
+		}
+
+		.container {
+			/*border:2px solid black;*/
+			width:60%;
+		}
+
+		#generalData {
+			/*border:2px solid red;*/
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+
+		.adressDetails{
+			display: inline-block;
+		}
+		
+		ul {
+			display: inline-block;
+			list-style: none;
+			}
+
+		ul.heading-List {
+			padding:0;
+		}
+
+		.career-row {
+			display:flex;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+
+		.invisiblePlaceholer {
+			visibility: hidden;
+		}
+
+		.container > p {
+			margin-top: 30px;
+		}
+		.section-header {
+			margin-bottom: 0px;
+			font-weight: bold;
+			font-size: 1.5rem;
+		}
+
+		footer {
+			display: flex;
+			justify-content: center;
+		}
+
+		.container {
+			display:flex;
+			flex-direction: column;
+		}
+    	
+
+	</style>
+</head>
+<body>
+	<header>
+		<div id="lebenslauf-heading">
+		Lebenslauf
+		</div>	
+	</header>
+	<main>
+
+
+		<div class="container">
+
+			<section id="generalData">
+				<div> 
+					<ul>
+						<li>
+							Adresse:
+						</li>
+						<li>
+							Telefon:
+						</li>
+						<li>
+							Email:
+						</li>	
+						<li>
+							Geburtsdatum:	
+						</li>
+						<li>
+							Familienstand:
+						</li>
+					</ul>
+					<ul>
+						<li>Beispielstrasse 1</li>
+						<li>123456789</li>
+						<li>musteradresse@musterdomain.com</li>
+						<li>01.01.Musterjahr</li>
+						<li>ledig</li>
+
+					</ul>
+				</div>
+				<div>
+					<img src="" alt="image">
+				</div>
+			</section>
+
+			<p class="section-header">BERUFLICHER WERDEGANG</p>
+			<section id="career">
+
+				<div class="career-row">
+					<ul class="heading-List">
+						<li class="invisiblePlaceholer">
+							Test1
+						</li>
+						<li>
+							09/2009-heute
+						</li>
+					</ul>
+
+					<ul>
+						<li>
+							<b>Musterstelle</b>
+						</li>
+						<li>
+							Musterfirma, 12345 Musterstadt
+						</li>
+						<li>
+							Kurzbeschreibung Tätigkeit 1
+						</li>
+						<li>
+							Kurzbeschreibung Tätigkeit 2
+						</li>
+						<li>
+							Kurzbeschreibung Tätigkeit 3
+						</li>
+					</ul>
+
+				</div> <!-- end of row -->
+
+				<div class="career-row">
+					<ul class="heading-List">
+						<li class="invisiblePlaceholer">
+							Test1
+						</li>
+						<li>
+							07/2000-08/2009
+						</li>
+					</ul>
+
+					<ul>
+						<li>
+							<b>Musterstelle</b>
+						</li>
+						<li>
+							Musterfirma, 12345 Musterstadt
+						</li>
+						<li>
+							Kurzbeschreibung Tätigkeit 1
+						</li>
+						<li>
+							Kurzbeschreibung Tätigkeit 2
+						</li>
+						<li>
+							Kurzbeschreibung Tätigkeit 3
+						</li>
+					</ul>
+
+				</div> <!-- end of row -->
+				<p class="section-header">
+					AUSBILDUNG
+				</p>
+				<div class="career-row">
+					<ul class="heading-List">
+						<li class="invisiblePlaceholer">
+							Test1
+						</li>
+						<li>
+							09/1996-06/2000
+						</li>
+					</ul>
+
+					<ul>
+						<li>
+							<b>Musterausbildung</b>
+						</li>
+						<li>
+							Musterfirma, 12345 Musterstadt
+						</li>
+						<li>
+							Kurzbeschreibung Tätigkeit 1
+						</li>
+						<li>
+							Kurzbeschreibung Tätigkeit 2
+						</li>
+						<li>
+							Kurzbeschreibung Tätigkeit 3
+						</li>
+					</ul>
+
+				</div> 
+
+			</section>
+
+				<footer>
+
+		<p> &#169; Fabian Andiel 2020</p>
+		
+
+	</footer>
+
+		</div>
+	</main>
+	
+
+</body>
+</html>
